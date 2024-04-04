@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scale-effect:hover{
+  transform: scale(1.1);
+}
+
+.scale-effect:active{
+  transform: scale(0.9);
+}
